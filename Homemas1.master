@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Homemas1.master.cs" Inherits="Homemas" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>Cloud</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div class="main">
+  <div class="main_resize">
+    <div class="header">
+      <div class="logo">
+           <h1><a href="#"><span>PROTECTIVE DATA SHARING </span>AND TRACEABILITY<small> </small></a></h1>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content_bg">
+        <div class="menu_nav">
+          <ul>
+            <li class="active"><a href="Home.aspx">Home</a></li>
+          <li><a href="About.aspx">About us</a></li>
+  <li><a href="Datacenter.aspx">KGC</a></li>
+  <li><a href="SignIn.aspx">Data owner</a></li>
+  <li><a href="serverlogin.aspx">Server</a></li>
+  <li><a href="Contact.aspx">Contact</a></li>
+          </ul>
+        </div>
+        <div class="hbg"><img src="images/header_images.jpg" width="915" height="286" alt="" /></div>
+        
+        
+        
+        
+          <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        <div class="clr"></div>
+      </div>
+      <div class="fbg">
+        <div class="fbg_resize">
+          <div class="col c1">
+         
+            
+          </div>
+         
+          <div class="clr"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+    
+      </div>
+    </div>
+  </div>
+</div>
+       
+    </div>
+    </form>
+</body>
+</html>
